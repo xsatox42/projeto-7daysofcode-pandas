@@ -1,2 +1,48 @@
-# Projeto-7daysofcode
-# projeto-7daysofcode-pandas
+# Projeto 7 Days of Code: Pandas
+
+Este repositório contém o notebook desenvolvido como parte do desafio **7 Days of Code**, oferecido pela Alura. O projeto tem como objetivo praticar e aprimorar habilidades em manipulação, visualização e análise de dados utilizando a biblioteca **Pandas** do Python. Neste projeto, exploramos dados sobre os empréstimos de acervos do sistema de bibliotecas da **UFRN**.
+
+## Descrição
+
+O desafio **7 Days of Code** consiste em uma série de exercícios práticos, distribuídos ao longo de 7 dias, onde cada dia explora um aspecto diferente da manipulação de dados com Pandas. No contexto deste desafio, foi utilizada uma base de dados sobre os empréstimos realizados nas bibliotecas da UFRN, complementada por informações sobre exemplares, usuários e previsões.
+
+### Estrutura do Projeto
+
+- **7daysofcode.ipynb**: Notebook contendo o código e as soluções para o desafio, além da análise exploratória de dados.
+- **datasets/**: Diretório contendo os arquivos utilizados nos exercícios.
+- **README.md**: Este arquivo, que documenta o projeto.
+
+## Insights Obtidos
+
+A seguir, alguns insights relevantes obtidos durante a análise dos dados:
+
+### 1. **Distribuição de Empréstimos ao Longo dos Anos**
+Os dados revelam uma queda constante nos empréstimos desde 2013, com uma queda acentuada em 2019 e 2020, influenciada pela pandemia de COVID-19. O gráfico de empréstimos por ano sugere a necessidade de investigação interna sobre as políticas e práticas das bibliotecas nesse período.
+
+### 2. **Empréstimos por Coleção**
+A coleção **Acervo Circulante** domina os empréstimos, representando 99% do total. Outras coleções, como **monografias**, **dissertações** e **teses**, apresentam uma participação muito menor, levantando questões sobre seu uso pelos alunos e estratégias para incentivar sua consulta.
+
+### 3. **Variação Mensal**
+Os meses de março e agosto são os mais movimentados, refletindo o ciclo acadêmico da universidade, enquanto os meses de férias, como janeiro e dezembro, têm os menores números de empréstimos.
+
+### 4. **Classificação Decimal Universal (CDU)**
+A análise baseada na CDU (Classificação Decimal Universal) mostra que a maior parte dos empréstimos está concentrada em temas relacionados às **ciências aplicadas** e **ciências sociais**. Já áreas como **Geografia**, **História** e **Belas Artes** têm poucos empréstimos, sugerindo que pode haver espaço para melhorias na curadoria dessas coleções.
+
+### 5. **Empréstimos por Tipo de Usuário**
+Os **alunos de graduação** são os maiores usuários das bibliotecas, representando cerca de 78% dos empréstimos. Alunos de pós-graduação seguem com 15%, enquanto outros grupos, como docentes e servidores, têm uma participação menor.
+
+## Análise de Variáveis Categóricas
+
+Durante a análise, foram exploradas as seguintes questões:
+
+- **Tipos de vínculos dos usuários**: Alunos de graduação e pós-graduação dominam os empréstimos.
+- **Bibliotecas mais ativas**: A **Biblioteca Central Zila Mamede** foi responsável pela maior parte dos empréstimos.
+- **Coleções mais utilizadas**: O **Acervo Circulante** teve o maior número de empréstimos.
+
+## Análise Exploratória de Dados
+
+Além da análise geral, foi realizada uma análise mais detalhada dos seguintes aspectos:
+
+- **Distribuição dos empréstimos por ano, mês e hora**.
+- **Comportamento dos empréstimos para alunos de graduação e pós-graduação**.
+- **Previsão de empréstimos para os próximos anos com base nos dados históricos e um conjunto de dados de previsão para 2022**.
