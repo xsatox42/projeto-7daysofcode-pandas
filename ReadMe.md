@@ -17,15 +17,27 @@ O desafio **7 Days of Code** consiste em uma série de exercícios práticos, di
 A seguir, alguns insights relevantes obtidos durante a análise dos dados:
 
 ### 1. **Distribuição de Empréstimos ao Longo dos Anos**
+
+![image](https://github.com/user-attachments/assets/dd9fa2d8-4ca3-49f7-88ff-d61d15233d91)
+
 Os dados revelam uma queda constante nos empréstimos desde 2013, com uma queda acentuada em 2019 e 2020, influenciada pela pandemia de COVID-19. O gráfico de empréstimos por ano sugere a necessidade de investigação interna sobre as políticas e práticas das bibliotecas nesse período.
 
 ### 2. **Empréstimos por Coleção**
+
+![image](https://github.com/user-attachments/assets/546b0059-79db-4cd5-aff0-c1807eeb4fca)
+
 A coleção **Acervo Circulante** domina os empréstimos, representando 99% do total. Outras coleções, como **monografias**, **dissertações** e **teses**, apresentam uma participação muito menor, levantando questões sobre seu uso pelos alunos e estratégias para incentivar sua consulta.
 
 ### 3. **Variação Mensal**
+
+![image](https://github.com/user-attachments/assets/4cc74859-651d-4786-b4fb-774860585ecd)
+
 Os meses de março e agosto são os mais movimentados, refletindo o ciclo acadêmico da universidade, enquanto os meses de férias, como janeiro e dezembro, têm os menores números de empréstimos.
 
 ### 4. **Classificação Decimal Universal (CDU)**
+
+![image](https://github.com/user-attachments/assets/e561bf02-c13c-4726-8800-d93f801398be)
+
 A análise baseada na CDU (Classificação Decimal Universal) mostra que a maior parte dos empréstimos está concentrada em temas relacionados às **ciências aplicadas** e **ciências sociais**. Já áreas como **Geografia**, **História** e **Belas Artes** têm poucos empréstimos, sugerindo que pode haver espaço para melhorias na curadoria dessas coleções.
 
 ### 5. **Empréstimos por Tipo de Usuário**
@@ -45,4 +57,4 @@ Além da análise geral, foi realizada uma análise mais detalhada dos seguintes
 
 - **Distribuição dos empréstimos por ano, mês e hora**.
 - **Comportamento dos empréstimos para alunos de graduação e pós-graduação**.
-- **Previsão de empréstimos para os próximos anos com base nos dados históricos e um conjunto de dados de previsão para 2022**.
+- **Comparativo de de empréstimos ano a ano**.
