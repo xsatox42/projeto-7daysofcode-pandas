@@ -62,4 +62,3 @@ Além da análise geral, foi realizada uma análise mais detalhada dos seguintes
   ![image](https://github.com/user-attachments/assets/50d0c8c0-6f98-4ec1-a7e8-f81625698d80)
 - **Comparativo de de empréstimos ano a ano**.
   ![image](https://github.com/user-attachments/assets/c3987dfb-07d1-4a75-821c-04bc2b99ff2d)
-
